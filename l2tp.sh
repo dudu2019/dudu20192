@@ -231,7 +231,7 @@ preinstall_l2tp(){
 
     echo "Please enter Username:"
     read -p "(Default Username: 123123):
-    password=`rand`
+    password=`123123`
     echo "Please enter ${username}'s password:"
     read -p "(Default Password: ${123123}):
 
