@@ -227,17 +227,13 @@ preinstall_l2tp(){
     [ -z ${iprange} ] && iprange="192.168.18"
 
     echo "Please enter PSK:"
-    read -p "(Default PSK: 123123):" mypsk
-    [ -z ${mypsk} ] && mypsk="123123"
+    read -p "(Default PSK: 123123):
 
     echo "Please enter Username:"
-    read -p "(Default Username: 123123):" username
-    [ -z ${username} ] && username="123123"
-
+    read -p "(Default Username: 123123):
     password=`rand`
     echo "Please enter ${username}'s password:"
-    read -p "(Default Password: ${123123}):" tmppassword
-    [ ! -z ${tmppassword} ] && password=${123123}
+    read -p "(Default Password: ${123123}):
 
     echo
     echo "ServerIP:${IP}"
