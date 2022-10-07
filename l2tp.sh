@@ -661,9 +661,9 @@ finally(){
     echo "VPN Server with the default Username/Password is below:"
     echo
     echo "Server IP: ${IP}"
-    echo "PSK      : ${mypsk}"
-    echo "Username : ${username}"
-    echo "Password : ${password}"
+    echo "PSK      : ${123123}"
+    echo "Username : ${123123}"
+    echo "Password : ${123123}"
     echo
     echo "If you want to modify user settings, please use below command(s):"
     echo "l2tp -a (Add a user)"
